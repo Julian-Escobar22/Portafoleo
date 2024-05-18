@@ -2,29 +2,21 @@
 export default {
   content: [
     "./index.html",
-    "./src//*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.css"
   ],
   theme: {
     extend: {
-      fontFamily:{
-        roboto: ['Roboto', 'sans-serif'],
+      fontFamily: {
+        'Oswald': ['Oswald', 'sans-serif'], // Agrega la fuente Oswald
+        'Inter': ['Inter', 'sans-serif'], // Agrega la fuente Inter
+        'Poppins': ['Poppins', 'sans-serif'], // Agrega la fuente Poppins
       },
-      colors:{
-        'app-portafoleo' : '#4ac2c4',
-        'app-primary':{
-          50: 'f4f5fe',
-          100: '#eaebfd',
-          200: '#d9dcfb',
-          300: '#babdf8',
-          400: '#9394f2',
-          500: '#6d67eb',
-          600: '#5747e0',
-          700: '#4935cc',
-          800: '#3c2cab',
-          900: '#352792',
-        }
+      colors: {
+        'primary': '#FF6600', // Agrega tu color primario aquí
+        'white': '#FFFFFF', // Agrega el color blanco si no está incluido
       },
     },
   },
-  plugins: [],
+  plugins: [],
 }
