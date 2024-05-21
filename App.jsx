@@ -1,3 +1,4 @@
+import React from 'react';
 import About from './src/app/sections/About';
 import Background from './src/app/sections/Background';
 import Contact from './src/app/sections/Contact';
@@ -22,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;
