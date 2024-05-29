@@ -1,9 +1,8 @@
-
 const NavbarMobile = () => {
   return (
     <ul
       id='mobile-nav'
-      className='gap-10 text-xl md:hidden dark:bg-slate-800 bg-white text-black flex-center flex-col fixed w-full h-0 overflow-hidden bottom-0 duration-200 rounded-t-3xl left-0 z-[998]' // Cambio de color de fondo y texto
+      className='gap-10 text-xl md:hidden bg-white text-black flex-center flex-col fixed w-full h-0 overflow-hidden bottom-0 duration-200 rounded-t-3xl left-0 z-[998]' // Cambio de color de fondo y texto
     >
       <li>
         <a href='#home'>Home</a>

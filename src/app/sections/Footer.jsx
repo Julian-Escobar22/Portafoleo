@@ -20,13 +20,13 @@ const Footer = () => {
         </li>
       </ul>
       <div className='flex justify-center gap-4'>
-        <a href='https://www.facebook.com/juliescobar.figeroa' className='text-xl text-black'>
+        <a href='https://www.facebook.com/juliescobar.figeroa' target='_blank' rel='noopener noreferrer' className='text-xl text-black'>
           <FontAwesomeIcon icon={faFacebook} />
         </a>
-        <a href='https://github.com/Julian-Escobar22' className='text-xl text-black'>
+        <a href='https://github.com/Julian-Escobar22' target='_blank' rel='noopener noreferrer' className='text-xl text-black'>
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href='https://www.linkedin.com/in/julian-escobar-a0aa5b304/' className='text-xl text-black'>
+        <a href='https://www.linkedin.com/in/julian-escobar-a0aa5b304/' target='_blank' rel='noopener noreferrer' className='text-xl text-black'>
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </div>

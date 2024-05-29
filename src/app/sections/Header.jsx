@@ -25,19 +25,13 @@ const Header = () => {
           <li>
             <a href='#contact' style={{ color: 'black' }}>Habilidades-Contactos</a> {/* Cambio de color del enlace */}
           </li>
-          <li className='theme-switch'>
-            <i className='fa-solid fa-circle-half-stroke cursor-pointer'></i>
-          </li>
         </ul>
         <div className='flex items-center gap-6'>
           <a href='#contact'>
-            <button className='btn btn-outline md:!flex !hidden' style={{ color: 'black' }}> {}
+            <button className='btn btn-outline md:!flex !hidden' style={{ color: 'black' }}>
               <i className='fa-regular fa-paper-plane'></i> ¡Contactame!
             </button>
           </a>
-          <span className='theme-switch md:hidden'>
-            <i className='fa-solid fa-circle-half-stroke cursor-pointer'></i>
-          </span>
           <span id='menubar' className='cursor-pointer md:hidden text-xl'>
             <i className='fa-solid fa-bars'></i>
           </span>
